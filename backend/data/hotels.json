@@ -1,0 +1,139 @@
+[
+  {
+    "id": "HT-201",
+    "name": "The Taj Mahal Palace",
+    "city": "Mumbai",
+    "location": "Apollo Bunder, Colaba, Mumbai",
+    "starRating": 5,
+    "userRating": 4.9,
+    "reviewsCount": 3840,
+    "badge": "MMT Luxe Icon",
+    "pricePerNight": 18500,
+    "originalPrice": 22000,
+    "discount": "16% OFF",
+    "taxes": 3330,
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Sea View", "Infinity Pool", "Free WiFi", "Spa & Wellness", "Fine Dining", "Airport Shuttle"],
+    "roomType": "Luxury Grand Room City View",
+    "cancellationPolicy": "Free Cancellation till 24 hrs before check-in",
+    "popular": true
+  },
+  {
+    "id": "HT-202",
+    "name": "The Leela Palace New Delhi",
+    "city": "New Delhi",
+    "location": "Diplomatic Enclave, Chanakyapuri, New Delhi",
+    "starRating": 5,
+    "userRating": 4.8,
+    "reviewsCount": 2910,
+    "badge": "Top Rated Luxury",
+    "pricePerNight": 16200,
+    "originalPrice": 19500,
+    "discount": "17% OFF",
+    "taxes": 2916,
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Rooftop Pool", "Michelin-style Dining", "Spa", "Free WiFi", "24/7 Butler"],
+    "roomType": "Royal Premiere Room",
+    "cancellationPolicy": "Free Cancellation till 48 hrs before check-in",
+    "popular": true
+  },
+  {
+    "id": "HT-203",
+    "name": "ITC Grand Chola & Resort",
+    "city": "Bengaluru",
+    "location": "Residency Road, Central Bengaluru",
+    "starRating": 5,
+    "userRating": 4.7,
+    "reviewsCount": 1820,
+    "badge": "Business & Leisure",
+    "pricePerNight": 9800,
+    "originalPrice": 12500,
+    "discount": "22% OFF",
+    "taxes": 1764,
+    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Swimming Pool", "Breakfast Included", "Gym", "High Speed WiFi", "Cocktail Bar"],
+    "roomType": "Executive Club Suite",
+    "cancellationPolicy": "Free Cancellation available",
+    "popular": false
+  },
+  {
+    "id": "HT-204",
+    "name": "W Goa Beachfront Resort",
+    "city": "Goa",
+    "location": "Vagator Beach, North Goa",
+    "starRating": 5,
+    "userRating": 4.8,
+    "reviewsCount": 4120,
+    "badge": "Beachfront Party & Relax",
+    "pricePerNight": 14900,
+    "originalPrice": 18000,
+    "discount": "17% OFF",
+    "taxes": 2682,
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Direct Beach Access", "Rock Pool", "Spa by Clarins", "Sunset DJ Deck", "Free Breakfast"],
+    "roomType": "Wonderful Ocean Oasis Chalet",
+    "cancellationPolicy": "Free Cancellation till 3 days before check-in",
+    "popular": true
+  },
+  {
+    "id": "HT-205",
+    "name": "Radisson Blu Plaza Hotel",
+    "city": "New Delhi",
+    "location": "Near Delhi Airport (IGI T3), Mahipalpur",
+    "starRating": 4,
+    "userRating": 4.4,
+    "reviewsCount": 2450,
+    "badge": "Airport Special",
+    "pricePerNight": 5400,
+    "originalPrice": 6990,
+    "discount": "23% OFF",
+    "taxes": 972,
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Airport Shuttle", "Outdoor Pool", "Spa", "Free WiFi", "24/7 Room Service"],
+    "roomType": "Superior King Room",
+    "cancellationPolicy": "Free Cancellation available",
+    "popular": false
+  },
+  {
+    "id": "HT-206",
+    "name": "Alila Diwa Goa - Hyatt",
+    "city": "Goa",
+    "location": "Majorda Beach, South Goa",
+    "starRating": 5,
+    "userRating": 4.7,
+    "reviewsCount": 1690,
+    "badge": "Paddy Field & Serenity",
+    "pricePerNight": 11200,
+    "originalPrice": 14000,
+    "discount": "20% OFF",
+    "taxes": 2016,
+    "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Infinity Paddy Pool", "Free Breakfast", "Kid's Club", "Spa Alila", "Bicycle Tours"],
+    "roomType": "Diwa Club Room with Balcony",
+    "cancellationPolicy": "Free Cancellation till 24 hrs before check-in",
+    "popular": true
+  }
+]

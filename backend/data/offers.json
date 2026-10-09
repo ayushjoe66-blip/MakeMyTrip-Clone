@@ -1,0 +1,46 @@
+[
+  {
+    "id": "OFF-1",
+    "category": "Flights",
+    "title": "FLAT 15% OFF on Domestic Flights",
+    "description": "Book flights with HDFC Bank Credit Cards & get up to ₹1,500 instant discount.",
+    "code": "HDFCFLY",
+    "discountPercent": 15,
+    "maxDiscount": 1500,
+    "bgGradient": "from-blue-600 to-indigo-800",
+    "tag": "DOMESTIC FLIGHTS"
+  },
+  {
+    "id": "OFF-2",
+    "category": "Hotels",
+    "title": "Grab Up to 25% OFF on Luxury Stays",
+    "description": "Exclusive savings on Taj, Marriott, Hyatt & premium boutique villas.",
+    "code": "LUXESTAY",
+    "discountPercent": 20,
+    "maxDiscount": 3500,
+    "bgGradient": "from-amber-600 to-rose-700",
+    "tag": "HOTELS & RESORTS"
+  },
+  {
+    "id": "OFF-3",
+    "category": "Flights",
+    "title": "Zero Cancellation Fee Protection",
+    "description": "Cancel anytime with full refund on selected IndiGo & Air India flights.",
+    "code": "MMTFREE",
+    "discountPercent": 10,
+    "maxDiscount": 800,
+    "bgGradient": "from-emerald-600 to-teal-800",
+    "tag": "SPECIAL FARE"
+  },
+  {
+    "id": "OFF-4",
+    "category": "Holidays",
+    "title": "International Getaways: ₹5,000 OFF",
+    "description": "Book trips to Dubai, Bali, Thailand or Singapore with ICICI Bank Cards.",
+    "code": "GLOBAL5000",
+    "discountPercent": 12,
+    "maxDiscount": 5000,
+    "bgGradient": "from-purple-600 to-indigo-900",
+    "tag": "INTERNATIONAL"
+  }
+]

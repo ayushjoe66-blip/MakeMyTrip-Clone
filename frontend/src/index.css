@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f1f5f9;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* MakeMyTrip Signature Gradients */
+.mmt-gradient-hero {
+  background: radial-gradient(circle at 50% 0%, #1e4287 0%, #0c2356 45%, #051435 100%);
+}
+
+.mmt-blue-btn {
+  background: linear-gradient(93deg, #53b2fe, #065af3);
+}
+
+.mmt-orange-gradient {
+  background: linear-gradient(90deg, #ff6b35, #ff3b30);
+}
+
+/* Glass Card */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.15), 0 0 0 1px rgba(226, 232, 240, 0.8);
+}
+
+/* Aviation Ticket Notches */
+.ticket-notch-left {
+  position: absolute;
+  top: 50%;
+  left: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 9999px;
+  box-shadow: inset -2px 0 3px rgba(0,0,0,0.1);
+}
+
+.ticket-notch-right {
+  position: absolute;
+  top: 50%;
+  right: -12px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 9999px;
+  box-shadow: inset 2px 0 3px rgba(0,0,0,0.1);
+}
+
+/* Flight Path Pulse Animation */
+@keyframes flightFly {
+  0% { transform: translateX(0%); }
+  50% { transform: translateX(50%) scale(1.1); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-flight-fly {
+  animation: flightFly 4s ease-in-out infinite alternate;
+}
+
+/* Print Styles for E-Ticket */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-ticket-area, .print-ticket-area * {
+    visibility: visible;
+  }
+  .print-ticket-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}
